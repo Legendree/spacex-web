@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+.news_container {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 50%;
+  padding: 50px 0px;
+}
+
+.slider_container {
+  display: flex;
+  color: white;
+  width: 30%;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.slider_btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid #444444;
+  background-color: #2f2f2f;
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+  font-size: 12px;
+  transition: 200ms ease-in-out;
+}
+
+.slider_btn:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.slider_btn_active {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid #e6e6e6;
+  background-color: #555555;
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+  font-size: 12px;
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+.news_title {
+  font-family: 'Asap', sans-serif;
+  text-transform: uppercase;
+  font-size: 108px;
+  color: ineherit;
+  margin-bottom: 25px;
+}
+
+.news_description {
+  width: 85%;
+  line-height: 1.6;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+}
+
+.news_read {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  align-self: start;
+}
+
+.news_read:hover {
+  transform: translateX(10px);
+}
+
+.news_rounded {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 3px solid #444444;
+  background-color: #2f2f2f;
+  font-family: inherit;
+  font-weight: 500;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.more_icon {
+  width: 8px;
+  height: auto;
+  color: inherit;
+}
+
+.read_more_text {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,50 @@
+.navigation_container {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  color: white;
+  align-items: center;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.logo {
+  height: auto;
+  width: 150px;
+  color: white;
+}
+
+.navigation_menu {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+  width: 60%;
+  font-weight: 500;
+  cursor: default;
+}
+
+.navigation_btn {
+  font-family: inherit;
+  padding: 12px 50px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  background-color: blue;
+  color: inherit;
+  font-weight: 500;
+  letter-spacing: inherit;
+}
+
+.navigation_btn:hover {
+  cursor: pointer;
+}
+
+.navigation_link {
+  transition: 200ms ease-in-out;
+  text-shadow: 1px 0px 7px #000000;
+}
+
+.navigation_link:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
